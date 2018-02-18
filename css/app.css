@@ -1315,7 +1315,7 @@ a, a:visited, a:hover {
   color: #1BA5DC; }
 
 p, li {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 200;
   letter-spacing: .4px;
   margin: 0 0 1.5rem 0; }
@@ -1328,7 +1328,7 @@ h2 {
   margin: 1rem 0; }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   margin: 1rem 0 0 0; }
 
@@ -1458,6 +1458,14 @@ footer p {
 /*************************************************************/
 /*** medium up ***/
 @media only screen and (min-width: 40em) {
+  p, li {
+    font-size: 1.125rem; }
+
+  h3 {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    margin: 1rem 0 0 0; }
+
   .show-for-small-only {
     display: none; }
 
