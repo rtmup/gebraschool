@@ -1425,7 +1425,7 @@ footer p {
   margin: 0; }
 
 .step-number {
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
 .fine-print {
   margin-top: 2rem; }
@@ -1461,10 +1461,8 @@ footer p {
   p, li {
     font-size: 1.125rem; }
 
-  h3 {
-    font-size: 1.25rem;
-    letter-spacing: 1px;
-    margin: 1rem 0 0 0; }
+  h3, .step-number {
+    font-size: 1.25rem; }
 
   .show-for-small-only {
     display: none; }
