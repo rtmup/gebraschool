@@ -53,12 +53,11 @@ h2, h3 {
 	text-transform: uppercase;
 }
 h2 {
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0;
 }
 h3 {
     font-size: 1.25rem;
     letter-spacing: 1px;
-    color: $tanzania-blue;
     margin: 1rem 0 0 0;
 }
 hr {
@@ -177,8 +176,12 @@ footer {
 }
 
 // ================ 3. Pricing ================ //
-
-
+.fine-print {
+    margin-top: 2rem;
+    p {
+       font-size: .875rem; 
+    }
+}
 // ================ 4. Reviews ================ //
 .review-wrapper {
     margin: 1rem auto;

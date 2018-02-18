@@ -1325,12 +1325,11 @@ h2, h3 {
   text-transform: uppercase; }
 
 h2 {
-  margin: 1rem 0 2rem 0; }
+  margin: 1rem 0; }
 
 h3 {
   font-size: 1.25rem;
   letter-spacing: 1px;
-  color: #1BA5DC;
   margin: 1rem 0 0 0; }
 
 hr {
@@ -1427,6 +1426,11 @@ footer p {
 
 .step-number {
   font-size: 1.5rem; }
+
+.fine-print {
+  margin-top: 2rem; }
+.fine-print p {
+  font-size: .875rem; }
 
 .review-wrapper {
   margin: 1rem auto; }
