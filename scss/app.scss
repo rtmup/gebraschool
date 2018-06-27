@@ -185,7 +185,7 @@ footer {
     }
     figure {
         grid-column: span 12;
-        margin-bottom: 2.5rem;
+        margin: 0;
         transition: all .2s ease;
         width: 100%;
         figcaption {
@@ -289,6 +289,6 @@ footer {
         margin: 1.5rem auto;
     }
     .section-default {
-        padding: 3.75rem 0;
+        padding: 3rem 0;
     }
 }
